@@ -3,7 +3,7 @@ Wifi Recruitment via ESP-01/EPS8266 Boards.
 Developed using [platform.io](https://platformio.org/). Before use, please double check your platformio.ini file to match your dev board (not all will probably work). This has been fieldtested on ESP-01 (1MB of SPIFFS) and EPS8266 (4MB of SPIFFS).
 
 ## /data
-This folder contains the local files uploaded to SPIFFS, non volatile. Has to be uploaded separately with the platformio commandline as define [here](https://docs.platformio.org/en/latest/platforms/espressif8266.html#uploading-files-to-file-system-spiffs)
+This folder contains the local files uploaded to SPIFFS, non volatile. Has to be uploaded separately with the platformio commandline as defined [here](https://docs.platformio.org/en/latest/platforms/espressif8266.html#uploading-files-to-file-system-spiffs)
 
 ## Settings
 The SSID is stored in EEPROM, to be non volatile. This can be changed when browsing to the device IP (192.168.4.1)) when connected on the network and ammending /admin to the URL.
