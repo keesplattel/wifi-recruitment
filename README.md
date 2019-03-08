@@ -3,9 +3,6 @@ Wifi Recruitment via ESP-01/EPS8266 Boards.
 Developed using [platform.io](https://platformio.org/). Before use, please double check your platformio.ini file to match your dev board (not all will probably work). This has been fieldtested on ESP-01 (1MB of SPIFFS) and EPS8266 (4MB of SPIFFS).
 
 ## /data
-This folder contains the local files uploaded to SPIFFS. To store locally on the device without being flushed away on reset. 
-
-## /data
 This folder contains the local files uploaded to SPIFFS, non volatile. Has to be uploaded separately with the platformio commandline as define [here](https://docs.platformio.org/en/latest/platforms/espressif8266.html#uploading-files-to-file-system-spiffs)
 
 ## Settings
